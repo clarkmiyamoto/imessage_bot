@@ -14,9 +14,21 @@ You need to install...
 # How to use
 Turn on chatbot for specific person.
 1. Go into `Training Chat Bot.ipynb`, find index associated with target phone number
-2. Start the bot:
+2. Create a `config.json` in `imessage_bot` directory 
 ```
-python main.py <phone_number>
+{
+  "phone_number" : "+11231231234",
+  "db_path" : "/Users/{your}/Library/Messages/chat.db",
+  "train_db_path" : "./chat.db",
+  "training_phone_number" : null
+}
+```
+If training_phone_number == null, then it'll train on all messages.
+If not you can specifiy a contact to train on.
+
+3. Start the bot:
+```
+python3 main.py
 ```
 Format of phone_number: "+18081231234"
 
