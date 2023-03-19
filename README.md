@@ -3,6 +3,8 @@ Currently stuck in quarentine and am very bored. On my list of morally-gray thin
 
 This bot trains on previous iMessage data. 
 
+![Alt text](relative%20docs/example.png?raw=true "Title")
+
 ## Installaiton 
 You need to install...
 - `chatterbot`
