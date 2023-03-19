@@ -32,7 +32,6 @@ If not you can specifiy a contact to train on.
 ```
 python3 main.py
 ```
-Format of phone_number: "+18081231234"
 
 # Improvements
 - Find way to clean data
